@@ -1,8 +1,11 @@
-![Some ALT text](logo.png "Radiolka")
+![Radiolka](logo.png "Radiolka")
+
+> Aplikacja nieaktualizowana!
+
 # About
 
- *Soon™*
-
+- Aplikacja służąca do głosowania i dodawania propozycji swojej ulubionej muzyki. 
+- Aplikacja tworzona jako projekt dla ZS3 w Wyszkowie.
 ----
 
 ## TODO
@@ -20,3 +23,10 @@
 - [ ] About Page
 - [ ] More..
 ----
+
+### Wykorzystano
+- PHP 7.1
+- Laravel
+- Last.fm API
+- Facebook API
+- UIkit CSS
