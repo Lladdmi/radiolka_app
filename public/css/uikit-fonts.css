@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css?family=Barlow+Condensed|Yanone+Kaffeesatz:200,400');
+body {
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  min-width: 550px;
+}
+header h1 span{
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+h1{
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+form{
+  font-family: 'Barlow Condensed', sans-serif;
+}
+.volume{
+background: transparent;
+border: 0;
+}
+.thead-center th{
+  text-align: center !important;
+  font-size: 1.3em;
+}
+.user-panel a{
+  margin: 0 auto;
+  display: inline-block;
+  white-space: nowrap;
+  padding-left: 100%; /*Initial offset*/
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.user-panel{
+  word-wrap: break-word;
+  overflow: hidden;
+}
+
+@keyframes floatText {
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+.icon{
+  margin: 0px 2px;
+}
+
+.delete{
+  background: transparent;
+  border: 0;
+}
+
+@media screen and (orientation:portrait) {
+    // CSS applied when the device is in portrait mode
+}
+
+@media screen and (orientation:landscape) {
+    // CSS applied when the device is in landscape mode
+}
